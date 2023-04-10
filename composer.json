@@ -1,0 +1,43 @@
+{
+    "name": "alucard29/planning",
+    "description": "Gantt Planning Tool.",
+    "keywords": [
+        "alucard29",
+        "laravel",
+        "filament",
+        "planning",
+        "gantt"
+    ],
+    "homepage": "https://github.com/alucard29/planning",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gurvan Porhiel",
+            "email": "gurvan.porhiel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1",
+        "filament/filament": "^2.13"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Alucard29\\Planning\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alucard29\\Planning\\PlanningServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
