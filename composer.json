@@ -37,7 +37,5 @@
                 "Alucard29\\Planning\\PlanningServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
